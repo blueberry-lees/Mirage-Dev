@@ -9,6 +9,7 @@ TagManager:
   - Logic
   - KeyItem
   - Trap
+  - nonCat
   layers:
   - Default
   - TransparentFX

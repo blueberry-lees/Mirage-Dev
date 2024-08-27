@@ -21,7 +21,7 @@ public class SceneChanger : MonoBehaviour
     }
 
 
-    IEnumerator LoadNextScene(string sceneName)
+    public IEnumerator LoadNextScene(string sceneName)
     {
         transition.SetTrigger("StartTrans");
         yield return new WaitForSeconds(transitionTime);
