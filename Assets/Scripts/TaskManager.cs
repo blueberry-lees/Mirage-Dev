@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 
-public class BackToMenu : MonoBehaviour
+public class TaskManager: MonoBehaviour
 {
 
     public string sceneName;
